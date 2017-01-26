@@ -2149,3 +2149,5 @@ Processing by SongsController#index as HTML
   [1m[35mCACHE (0.0ms)[0m  SELECT  "artists".* FROM "artists" WHERE "artists"."id" = ? LIMIT 1  [["id", 6]]
   Rendered songs/index.html.erb within layouts/application (105.8ms)
 Completed 200 OK in 257ms (Views: 249.3ms | ActiveRecord: 3.9ms)
+  [1m[36mSong Load (12.5ms)[0m  [1mSELECT "songs".* FROM "songs"[0m
+  [1m[35mArtist Load (1.0ms)[0m  SELECT  "artists".* FROM "artists" WHERE "artists"."id" = ? LIMIT 1  [["id", 1]]
